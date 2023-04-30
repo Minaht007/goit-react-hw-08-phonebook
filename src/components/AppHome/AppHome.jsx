@@ -1,5 +1,5 @@
 import { useAuth } from 'hooks';
-import { Wrapper, Title, Text, NavItem } from './AppHome.styled';
+import { Wrapper, Title, Box, NavItem } from './AppHome.styled';
 
 export const AppHome = () => {
   const { isLoggedIn } = useAuth();
@@ -8,14 +8,14 @@ export const AppHome = () => {
       <Title>Contact manager📗</Title>
 
       {!isLoggedIn && (
-        <Text>
+        <Box>
           To use the application you need to
           <NavItem to="/register">Register</NavItem>
           <p>
             Already registered?
             <NavItem to="/login">Login</NavItem>
           </p>
-        </Text>
+        </Box>
       )}
     </Wrapper>
   );

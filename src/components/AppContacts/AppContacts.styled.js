@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   background-color: rgba(11, 12, 16, 0.6);
   padding: 30px 20px;
-  margin: 0 auto;
+  // margin: 0 auto;
   border-radius: 10px;
 `;
 

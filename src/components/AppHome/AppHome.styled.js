@@ -10,14 +10,13 @@ export const Title = styled.h1`
   font-weight: 700;
   text-align: center;
 `;
-export const Text = styled.p`
+export const Box = styled.div`
   text-align: center;
   padding: 30px;
   width: 800px;
   font-size: 30px;
   margin: 0 auto;
 `;
-
 
 export const NavItem = styled(NavLink)`
   font-size: 28px;

@@ -10,6 +10,8 @@ export const Container = styled.div`
 `;
 
 export const List = styled.ul`
+  // width: 400px;
+  // margin: 0 auto;
   position: relative;
   gap: 10px;
   border-radius: 10px;
